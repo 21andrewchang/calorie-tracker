@@ -6,11 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
+
+
+
 
 @main
 struct CalorieTrackerApp: App {
-    var body: some Scene {
-        WindowGroup {
+
+    init(){
+        FirebaseApp.configure()
+    }    
+    var body: some Scene
+    {
+        
+        WindowGroup
+        {
             ContentView()
         }
     }

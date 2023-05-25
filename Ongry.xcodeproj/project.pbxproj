@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4835301629D86C0A00891DFF /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835301529D86C0A00891DFF /* TimeFormatting.swift */; };
+		4835301A29D8828000891DFF /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835301929D8828000891DFF /* CircleProgressBar.swift */; };
+		483D024C29D92EE300B81B5A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 483D024B29D92EE300B81B5A /* FirebaseAuth */; };
+		483D024E29D92EE300B81B5A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 483D024D29D92EE300B81B5A /* FirebaseFirestore */; };
+		483D025029D930E200B81B5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 483D024F29D930E200B81B5A /* GoogleService-Info.plist */; };
+		483D025429D934C900B81B5A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D025329D934C900B81B5A /* AuthManager.swift */; };
+		483D025A29D9396000B81B5A /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D025929D9396000B81B5A /* SMSCodeViewController.swift */; };
 		48989F8D29D326FC007F19AF /* CalorieTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48989F8C29D326FC007F19AF /* CalorieTrackerApp.swift */; };
 		48989F8F29D326FC007F19AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48989F8E29D326FC007F19AF /* ContentView.swift */; };
 		48989F9129D326FD007F19AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48989F9029D326FD007F19AF /* Assets.xcassets */; };
 		48989F9429D326FD007F19AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48989F9329D326FD007F19AF /* Preview Assets.xcassets */; };
+		48989F9B29D33875007F19AF /* CalorieTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48989F9A29D33875007F19AF /* CalorieTracker.swift */; };
+		48989F9D29D33886007F19AF /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48989F9C29D33886007F19AF /* TrackerModel.swift */; };
+		48A1DF0129D466230087E007 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1DF0029D466230087E007 /* NavBar.swift */; };
+		48C4E3B029D8D8890093A846 /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E3AF29D8D8890093A846 /* AddMealView.swift */; };
+		48C4E3B229D8D9080093A846 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4E3B129D8D9080093A846 /* DetailedView.swift */; };
+		48D12D9429D76F77002B66E5 /* MealModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48D12D9229D76F77002B66E5 /* MealModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48989F8929D326FC007F19AF /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4835301529D86C0A00891DFF /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		4835301929D8828000891DFF /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		483D024F29D930E200B81B5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		483D025329D934C900B81B5A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		483D025929D9396000B81B5A /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		485F8A4C29D4CA0C001C9C29 /* Ongry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ongry-Info.plist"; sourceTree = "<group>"; };
+		48989F8929D326FC007F19AF /* Ongry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ongry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48989F8C29D326FC007F19AF /* CalorieTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTrackerApp.swift; sourceTree = "<group>"; };
 		48989F8E29D326FC007F19AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48989F9029D326FD007F19AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48989F9329D326FD007F19AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48989F9A29D33875007F19AF /* CalorieTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTracker.swift; sourceTree = "<group>"; };
+		48989F9C29D33886007F19AF /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
+		48A1DF0029D466230087E007 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		48C4E3AF29D8D8890093A846 /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
+		48C4E3B129D8D9080093A846 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		48D12D9329D76F77002B66E5 /* MealModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483D024C29D92EE300B81B5A /* FirebaseAuth in Frameworks */,
+				483D024E29D92EE300B81B5A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +62,7 @@
 		48989F8029D326FC007F19AF = {
 			isa = PBXGroup;
 			children = (
+				485F8A4C29D4CA0C001C9C29 /* Ongry-Info.plist */,
 				48989F8B29D326FC007F19AF /* CalorieTracker */,
 				48989F8A29D326FC007F19AF /* Products */,
 			);
@@ -43,7 +71,7 @@
 		48989F8A29D326FC007F19AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48989F8929D326FC007F19AF /* CalorieTracker.app */,
+				48989F8929D326FC007F19AF /* Ongry.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				48989F8C29D326FC007F19AF /* CalorieTrackerApp.swift */,
-				48989F8E29D326FC007F19AF /* ContentView.swift */,
+				483D025329D934C900B81B5A /* AuthManager.swift */,
+				483D024F29D930E200B81B5A /* GoogleService-Info.plist */,
+				48989F9A29D33875007F19AF /* CalorieTracker.swift */,
+				48D12D9529D77142002B66E5 /* Views */,
+				48D12D9129D76F0F002B66E5 /* Data Model */,
 				48989F9029D326FD007F19AF /* Assets.xcassets */,
 				48989F9229D326FD007F19AF /* Preview Content */,
 			);
@@ -67,12 +99,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		48D12D9129D76F0F002B66E5 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				48D12D9229D76F77002B66E5 /* MealModel.xcdatamodeld */,
+				4835301529D86C0A00891DFF /* TimeFormatting.swift */,
+				48989F9C29D33886007F19AF /* TrackerModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		48D12D9529D77142002B66E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48A1DF0029D466230087E007 /* NavBar.swift */,
+				48989F8E29D326FC007F19AF /* ContentView.swift */,
+				48C4E3B129D8D9080093A846 /* DetailedView.swift */,
+				4835301929D8828000891DFF /* CircleProgressBar.swift */,
+				48C4E3AF29D8D8890093A846 /* AddMealView.swift */,
+				483D025929D9396000B81B5A /* SMSCodeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48989F8829D326FC007F19AF /* CalorieTracker */ = {
+		48989F8829D326FC007F19AF /* Ongry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48989F9729D326FD007F19AF /* Build configuration list for PBXNativeTarget "CalorieTracker" */;
+			buildConfigurationList = 48989F9729D326FD007F19AF /* Build configuration list for PBXNativeTarget "Ongry" */;
 			buildPhases = (
 				48989F8529D326FC007F19AF /* Sources */,
 				48989F8629D326FC007F19AF /* Frameworks */,
@@ -82,9 +137,13 @@
 			);
 			dependencies = (
 			);
-			name = CalorieTracker;
+			name = Ongry;
+			packageProductDependencies = (
+				483D024B29D92EE300B81B5A /* FirebaseAuth */,
+				483D024D29D92EE300B81B5A /* FirebaseFirestore */,
+			);
 			productName = CalorieTracker;
-			productReference = 48989F8929D326FC007F19AF /* CalorieTracker.app */;
+			productReference = 48989F8929D326FC007F19AF /* Ongry.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48989F8429D326FC007F19AF /* Build configuration list for PBXProject "CalorieTracker" */;
+			buildConfigurationList = 48989F8429D326FC007F19AF /* Build configuration list for PBXProject "Ongry" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +170,14 @@
 				Base,
 			);
 			mainGroup = 48989F8029D326FC007F19AF;
+			packageReferences = (
+				483D024A29D92EE300B81B5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 48989F8A29D326FC007F19AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48989F8829D326FC007F19AF /* CalorieTracker */,
+				48989F8829D326FC007F19AF /* Ongry */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +189,7 @@
 			files = (
 				48989F9429D326FD007F19AF /* Preview Assets.xcassets in Resources */,
 				48989F9129D326FD007F19AF /* Assets.xcassets in Resources */,
+				483D025029D930E200B81B5A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D12D9429D76F77002B66E5 /* MealModel.xcdatamodeld in Sources */,
+				4835301629D86C0A00891DFF /* TimeFormatting.swift in Sources */,
+				48C4E3B229D8D9080093A846 /* DetailedView.swift in Sources */,
+				48A1DF0129D466230087E007 /* NavBar.swift in Sources */,
 				48989F8F29D326FC007F19AF /* ContentView.swift in Sources */,
+				48989F9B29D33875007F19AF /* CalorieTracker.swift in Sources */,
+				48989F9D29D33886007F19AF /* TrackerModel.swift in Sources */,
+				48C4E3B029D8D8890093A846 /* AddMealView.swift in Sources */,
+				483D025A29D9396000B81B5A /* SMSCodeViewController.swift in Sources */,
+				483D025429D934C900B81B5A /* AuthManager.swift in Sources */,
+				4835301A29D8828000891DFF /* CircleProgressBar.swift in Sources */,
 				48989F8D29D326FC007F19AF /* CalorieTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,23 +340,31 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalorieTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = L46526JFTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ongry-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Ongry;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewchang.CalorieTracker;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewchang.Ongry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,30 +376,38 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalorieTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = L46526JFTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ongry-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Ongry;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andrewchang.CalorieTracker;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewchang.Ongry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48989F8429D326FC007F19AF /* Build configuration list for PBXProject "CalorieTracker" */ = {
+		48989F8429D326FC007F19AF /* Build configuration list for PBXProject "Ongry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48989F9529D326FD007F19AF /* Debug */,
@@ -327,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48989F9729D326FD007F19AF /* Build configuration list for PBXNativeTarget "CalorieTracker" */ = {
+		48989F9729D326FD007F19AF /* Build configuration list for PBXNativeTarget "Ongry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48989F9829D326FD007F19AF /* Debug */,
@@ -337,6 +426,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		483D024A29D92EE300B81B5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		483D024B29D92EE300B81B5A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 483D024A29D92EE300B81B5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		483D024D29D92EE300B81B5A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 483D024A29D92EE300B81B5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		48D12D9229D76F77002B66E5 /* MealModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48D12D9329D76F77002B66E5 /* MealModel.xcdatamodel */,
+			);
+			currentVersion = 48D12D9329D76F77002B66E5 /* MealModel.xcdatamodel */;
+			path = MealModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 48989F8129D326FC007F19AF /* Project object */;
 }
